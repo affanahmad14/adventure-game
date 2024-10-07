@@ -2,6 +2,7 @@
 from game_utils import solve_riddle, end_game   # Funktionen aus Datei game_utils importiert.
 
 
+
 def greeting():   # type: ignore 
             # Definiere Funktion greeting (Begrüßung des Spielers und Anleitung)
 
@@ -10,10 +11,13 @@ def greeting():   # type: ignore
            to find the Lost treasure")
 # Allgemeine Begrüßung und Erläuterung des Spiels.
 
-
+def main():
+    
 def enter_room(room): # type: ignore # Funktion mit der, der Spieler einen Raum betritt und weiter läüft.
     print("You have entered the Main Entrance Hall. n\
            In front of you is the majestic stairway to the rooms upstairs")
+
+main()
 
 
 
